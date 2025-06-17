@@ -12,6 +12,7 @@ import Donate from './pages/donate';
 import Rescue from './pages/rescue/rescue';
 import JoinUsForm from './pages/join';
 import VisitPage from './pages/visit';
+import Chatbox from './components/chat_bot/chatbox';
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/visit",
     element: <VisitPage/>,
+  },
+  {
+    path: "/chat",
+    element: <Chatbox/>
   }
 ]);
 
