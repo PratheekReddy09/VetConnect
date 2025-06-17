@@ -1,8 +1,8 @@
 first open in vs code
-npm install
+npm install |
 npm start
 
 in new terminal 
-cd api
-npm install
-node api.js
+cd api |
+npm install |
+node api.js 
